@@ -1,0 +1,18 @@
+.btn-container {
+	width: 160px;
+	margin: 0 auto;
+}
+.play-btn {
+	padding: 10px 20px;
+	border: none;
+	color: white;
+	background-color: grey;
+	border-radius: 5px;
+	font-size: 20px;
+	width: 100%;
+	font-family: 'Ubuntu';
+	font-weight: 500; 
+}
+.play-btn:focus {
+	outline: none;
+}

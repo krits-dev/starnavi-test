@@ -1,0 +1,20 @@
+.score {
+	1display: flex;
+	1justify-content: space-between;
+	margin-top: 30px;
+	margin-bottom: 40px;
+	1padding-left: 30px;
+	1padding-right: 60px;
+}
+.score div {
+	font-size: 26px;
+	font-family: 'Ubuntu';
+	font-weight: 500;
+	color: dimgray;
+	text-align: center;
+}
+.score span {
+	color: black;
+	font-size: 26px;
+	font-weight: 700;
+}

@@ -1,0 +1,45 @@
+.game-container {
+	display: flex;
+	flex-wrap: wrap;
+	border: 1px solid grey;
+	margin-top: 50px;
+}
+.game-container.border-none {
+	border: none;
+}
+.game-container.easy-field {
+	width: 202px;
+	height: 202px;
+	margin: 0 auto;
+}
+.game-container.normal-field {
+	width: 402px;
+	height: 402px;
+	margin: 0 auto;
+}
+.game-container.hard-field {
+	width: 602px;
+	height: 602px;
+	margin: 0 auto;
+}
+.game-btn-default {
+	display: block;
+	width: 40px;
+	height: 40px;
+	border: 1px solid grey;
+	cursor: pointer;
+	background-color: white;
+	padding: 0;
+}
+.game-btn-default:focus {
+	outline: none;
+}
+.game-btn-default.item-blue {
+	background-color: blue;
+}
+.game-btn-default.item-green {
+	background-color: lime;
+}
+.game-btn-default.item-red {
+	background-color: red;
+}

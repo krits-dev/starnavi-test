@@ -1,0 +1,41 @@
+.leader-board {
+	width: 400px;
+	margin: 50px auto;
+}
+h2 {
+	color: grey;
+	font-size:40px;
+	font-family: 'Ubuntu';
+	font-weight: 500;
+	color: dimgray;
+}
+.list-group {
+	padding-top: 30px;
+}
+.list-group-item {
+	background-color: #d0d9dd;
+	border: none;
+	margin-top: 5px;
+	color: gray;
+	font-size: 22px;
+	font-family: 'Ubuntu';
+	font-weight: 500;
+	width: 400px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+
+}
+.list-group-item:first-child {
+	border-top-right-radius: 0;
+  border-top-left-radius: 0;
+}
+.list-group-item:last-child {
+	border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.list-date {
+	font-size: 16px;
+}
+

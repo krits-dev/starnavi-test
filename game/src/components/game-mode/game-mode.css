@@ -1,0 +1,43 @@
+.mode-menu {
+	position: relative;
+	width: 100%;
+	border-radius: 5px;
+	background-color: #d0d9dd;
+	padding: 12px 15px;
+	cursor: pointer;
+	font-size: 17px;
+	font-family: 'Ubuntu';
+	margin: 0 auto;
+}
+.mode-menu span {
+	font-size: 14px;
+	padding-left: 20px;
+}
+ul.mode-list {
+	position: absolute;
+	display: none;
+	list-style: none;
+	border: 1px solid silver;
+	width: 210px;
+	left: 0;
+	top: 49px;
+	border-radius: 3px;
+	padding: 0;
+	cursor: pointer;
+	z-index: 100;
+	background-color: white;
+}
+ul.mode-list a {
+	text-decoration: none;
+	color: black;
+	display: block;
+	padding: 5px 0 5px 15px;
+	cursor: pointer;
+}
+ul.mode-list a:hover {
+	background-color: #d0d9dd;
+}
+.mode-menu:hover ul.mode-list {
+	display: block;
+}
+
